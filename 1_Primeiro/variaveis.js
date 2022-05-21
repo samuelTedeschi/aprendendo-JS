@@ -1,13 +1,3 @@
-// este é um comentari o
-
-/*  comentario
-    de
-    multiplas
-    linhas
-*/
-
-document.write("<h1 style='color:blue'>bem vindo! <br> Introduçao a JavaScript</h1>")
-
 // variavel 
 
 var nome = "fulano"
@@ -29,10 +19,3 @@ document.write(comprar)
 const unico = "costante nao muda seu seu valor como a variavel"
 
 document.write("<br>" + unico)
-
-// alert
-
-var saldaçao = "bem vindo";
-const num = 20;
-
-alert(saldaçao + " " + num)

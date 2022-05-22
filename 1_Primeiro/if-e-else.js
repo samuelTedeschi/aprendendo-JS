@@ -14,7 +14,7 @@
 10 != 10 = false    diferente 
 */
 
-var x, y ;
+/* var x, y ;
 
 x=1;
 y=2;
@@ -24,3 +24,33 @@ if(x > y){
 }else{
     document.write("revisando")
 }
+*/
+
+// if aninhado 
+
+var nota = 70 
+var res;
+
+if(nota >= 60){
+    res = "aprovado";
+    if( nota >= 90){
+            if(nota >= 100){
+                res += " com ecelencia"
+            }else{
+                res += " com louvor"
+            }
+    }else{
+        res+= " nota normal"
+    }
+}else if (nota >= 40){
+    res =" recuperçao";
+}else{
+    res = "reprovado";
+        if(nota >= 20){
+            res += "nota baixa"
+        }else{
+            res+= "com louvor"
+        }
+}
+
+document.write(res)

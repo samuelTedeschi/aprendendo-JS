@@ -26,8 +26,25 @@ document.write(itens[mochila[2]] + "<br>")
 document.write(itens[mochila[3]])
 */
 
+var mochila=new Array();
 
-var  mochila=[], mochila1=[], mochila2=[],pos;
+var item1=["corda",2],
+    item2=["faca",1],
+    item3=["cura",5],
+    item4=["prego",35];
+
+mochila.push(item1);
+mochila.push(item2);
+mochila.push(item3);
+mochila.push(item4);
+
+document.write(mochila[0][0] + " - " + mochila[0][1] + "<br>");
+document.write(mochila[1][0] + " - " + mochila[1][1] + "<br>");
+document.write(mochila[2][0] + " - " + mochila[2][1] + "<br>");
+document.write(mochila[3][0] + " - " + mochila[3][1] + "<br>");
+
+
+/*var  mochila=[], mochila1=[], mochila2=[],pos;
 
 mochila1.push("faca");
 mochila1.push("corda");

@@ -7,18 +7,24 @@
     <title>1 | Primeiro Programa</title>
 
 </head>
-<body>
 
-   <form action="#" method="post" id="curso">
-       <label>nome</label>
-       <input type="text" name="fNome" id="teste" value="Primeiro">
-       <label for="">senha</label>
-       <input type="password" name="fSenha" value="1234">
-       <input type="submit" value="entar">
-   </form>
+<style>
+    .abc{
+        width: 200px;
+        height: 200px;
+        border: solid 2px black;
+        margin-bottom: 30px;
+    }
+
+</style>
+
+<body onload="ola()">
+
+   <div class="abc" id="dvs" onmouseover="mudarCor(this,'red')" onmouseout="mudarCor(this,'white')"></div>
+   <input type="button" value="Atualize" onmouseover="mudaPos(this)">
 
    <hr>
     
-   <script src="function.js"></script>
+   <script src="eventos.js"></script>
 </body>
 </html>

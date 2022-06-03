@@ -1,4 +1,16 @@
-
+function saudaçao(){
+    var data = new Date();
+    var horas = data.getHours();
+    var txt = "";
+    if(horas < 12){
+        txt = "Bom dia!"
+    }else if(horas < 18){
+        txt = "Boa tarde!"
+    }else{
+        txt = "Boa noite!"
+    }
+    alert(txt)
+}
 
 var data = new Date();
 var semana = data.getDay();
@@ -40,8 +52,3 @@ var pulaLinha = "<br>"
 document.write(semanas[semana] + " - " + dia + " de " + meses[mes] + " de " + ano + pulaLinha) ;
    
 document.write("Horas: " + hora + ":" + min);
-
-    
-    
-    
-

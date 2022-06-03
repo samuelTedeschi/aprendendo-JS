@@ -2,7 +2,7 @@
 
 var data = new Date();
 var semana = data.getDay();
-var dia = data.getDay();
+var dia = data.getDate();
 var mes = data.getMonth();
 var ano = data.getFullYear();
 

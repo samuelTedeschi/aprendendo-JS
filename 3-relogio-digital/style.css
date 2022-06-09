@@ -1,0 +1,41 @@
+
+.relogio{
+    display: flex;
+    justify-content: center;
+    margin:100px 400px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: lightslategray;
+    border-radius: 4px;
+    box-shadow: -10px 10px 5px black;
+}
+
+#dv1{
+    padding: 20px;
+    background: black;
+    border-radius: 4px;
+    font-size: 5rem;
+    color: white;
+    margin-right: 20px;
+    
+}
+
+#dv2{
+    padding: 20px;
+    background: black;
+    border-radius: 4px;
+    font-size: 5rem;
+    color: white;
+    margin-right: 20px;
+   
+
+}
+
+#dv3{
+    padding: 20px;
+    background: black;
+    border-radius: 4px;
+    font-size: 5rem;
+    color:white;
+    
+}

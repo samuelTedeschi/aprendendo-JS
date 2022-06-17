@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 7px 7px 30px 10px lightblue;
+    box-shadow: 7px  6px 20px dodgerblue;
 }
 
 h1 {
@@ -20,4 +20,13 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-left: solid red 3px;
     padding-left: 5px;
+}
+
+#btn{
+    background: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
 }
